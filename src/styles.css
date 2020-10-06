@@ -1,0 +1,149 @@
+button{
+  color: black;
+  background-color: grey;
+  font-size: 20px;
+  
+}
+
+#display{
+  border: 1px solid black;
+  width: 300px;
+  height: 120px;
+  margin: 0 auto;
+  color: white;
+  background-color: black;
+  font-size: 50px;
+  text-align: right;
+}
+
+#ac{
+  grid-area: ac;
+  color: black;
+  font-size: 20px;
+};
+
+
+#percent{
+  grid-area: percent;
+  color: black;
+  font-size: 20px;
+}
+
+#plusminus{
+  grid-area: plusminus;
+  color: black;
+  font-size: 20px;
+}
+
+#dot{
+  grid-area: dot;
+  color: white;
+
+}
+
+#divide{
+  grid-area: divide;
+  background-color: orange;
+  color: white;
+}
+
+#multiply{
+  grid-area: multiply;
+  background-color: orange;
+  color: white;
+}
+
+
+#minus{
+  grid-area: minus;
+  background-color: orange;
+  color: white;
+}
+
+#plus{
+  grid-area: plus;
+  background-color: orange;
+  color: white;
+}
+
+
+#equal{
+  grid-area: equal;
+  background-color: orange;
+  color: white;
+}
+
+#zero{
+  grid-area: zero;
+  color: white;
+  
+}
+
+#one{
+  grid-area: one;
+  color: white;
+
+}
+
+#two{
+  grid-area: two;
+  color: white;
+ 
+}
+
+#three{
+  grid-area: three;
+  color: white;
+
+}
+
+#four{
+  grid-area: four;
+  color: white;
+
+}
+
+#five{
+  grid-area: five;
+  color: white;
+
+}
+
+#six{
+  grid-area: six;
+  color: white;
+
+}
+
+#seven{
+  grid-area: seven;
+  color: white;
+  
+}
+
+#eight{
+  grid-area: eight;
+  color: white;
+  
+}
+
+#nine{
+  grid-area: nine;
+  color: white;
+  
+}
+
+.calculator-key{
+  display: grid;
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: black;
+  grid-template-areas: "ac plusminus percent divide"
+                        "seven eight nine multiply "
+                        "four five six minus "
+                        "one two three plus "
+                        "zero zero dot equal "
+
+};
